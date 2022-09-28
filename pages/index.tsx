@@ -10,7 +10,7 @@ const Home: NextPage = () => {
                 <meta name="description" content="Create a counter app" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <main className="flex flex-col justify-center items-center gap-5 h-screen w-screen bg-slate-800">
+            <main className="flex flex-col justify-center items-center gap-5 min-h-screen min-w-screen bg-slate-800">
                 <Counter />
             </main>
         </div>
